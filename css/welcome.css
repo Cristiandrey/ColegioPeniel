@@ -1,0 +1,58 @@
+.banner{
+	width: 100%;
+	height:  350px;
+	background-color: #EEE;
+	background-image: url('images/colpe.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 64px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 64px -20px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 64px -20px rgba(0,0,0,0.75);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-size: 80px !important;
+	text-shadow: #555 2px 2px 3px !important;
+	color: white !important;
+	text-decoration: none;
+
+}
+img{
+	width: 200px;
+	height: 200px;
+	margin-right: 30px;
+}
+article{
+	width: 100%;
+	margin: 30px 0px 60px 0px;
+	box-sizing: border-box;
+	padding: 0px 20px;
+	display : flex;
+}
+.noticia{
+	background-color: #EEE;
+	flex: auto;
+	height: 10em;
+	border-right: 10px solid white;
+}
+.noticia:last-child{
+	border-right: 0px;
+}
+.not{	width: 100%;
+	height:  100%;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0px 0px 29px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 29px -10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 29px -10px rgba(0,0,0,0.75);
+}
+.uno{
+	background-image: url('images/firme.jpg');
+}
+.dos{
+	background-image: url('images/invoice.png');
+}

@@ -1,0 +1,16 @@
+.simbolos{
+	width: 100%;
+	padding:  80px 120px;
+	box-sizing: border-box;
+}
+.contactos{
+	padding: 50px 0px;
+	display: flex;
+	justify-content: center;
+}
+.docente{
+	padding: 40px;
+}
+.album{
+	padding: 80px 100px;
+}

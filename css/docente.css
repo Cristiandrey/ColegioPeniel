@@ -1,0 +1,29 @@
+.fotosdoc{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.fotos{
+	width: 200px;
+	height: 250px;
+	border-right: 30px solid  transparent;
+	border-left: 30px solid  transparent;
+	border-bottom: 50px solid transparent;
+	display: flex;
+	-webkit-flex-direction: column;
+	text-align: center;
+	color: #2c3e50;
+	
+	
+}
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin-bottom: 10px; 
+}
+#profeccion{
+	font-weight:  bold;
+	font-size: 18px;
+	color: #27ae60;
+}

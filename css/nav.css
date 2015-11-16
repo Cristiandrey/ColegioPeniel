@@ -1,0 +1,58 @@
+.row{
+	width: 100%;
+	margin-left: 0px !important;
+}
+
+
+.ul{
+	background-color: #e74c3c;
+	border-right: solid;
+	border-color: #c0392b; 
+	box-sizing: border-box;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	overflow: hidden;
+	position: relative;
+}
+.ul:last-child{
+	border-right:  none;
+	box-sizing: border-box;
+}
+.li{
+  text-align: center;
+  position: relative;
+  padding:  12px 0px 12px 0px;
+  -webkit-transition: all .5s ease;
+	-mmoz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5 ease;
+	transition: all .5s ease;
+}
+a{
+  text-decoration: none;
+    color: white;
+}
+
+
+.li > a span{
+	background: #c0392b;
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: -40px;
+	-webkit-transition: all .5s ease;
+	-mmoz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5 ease;
+	transition: all .5s ease;
+}
+.li > a span {
+	display: block;
+	line-height: 40px;
+}
+.li:hover > a span{
+	top:0px;
+	opacity: 1;
+}
